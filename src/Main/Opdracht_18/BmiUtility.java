@@ -18,11 +18,11 @@ public class BmiUtility {
                 break;
             case (bmi >= 20 && bmi < 25): System.out.println("Ok");
                 break;
-            case (bmi >= 25 && bmi < 30): System.out.println("Overgwicht");
+            case (bmi >= 25 && bmi < 30): System.out.println("Overgewicht");
                 break;
-            case (bmi >= 30 && bmi < 40): System.out.println("Ok");
+            case (bmi >= 30 && bmi < 40): System.out.println("Obesitas");
                 break;
-            case (bmi > 40): System.out.println("Ok");
+            case (bmi > 40): System.out.println("Ziekelijk overgewicht");
                 break;
         }
 
