@@ -11,6 +11,8 @@ public class BmiUtility {
 
     public static void printBmi (float bmi){
 
+        System.out.println(bmi);
+
         switch (bmi){
             case (bmi < 20) : System.out.println("Ondergewicht");
                 break;
