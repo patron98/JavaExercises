@@ -27,7 +27,7 @@ public class BmiUtility {
 
         if (bmi < 20){
             System.out.println("Ondergewicht");
-        }else if (bmi >= 20 && bmi < 35){
+        }else if (bmi >= 20 && bmi < 25){
             System.out.println("Ok");
         }else if (bmi >= 25 && bmi < 30){
             System.out.println("Overgewicht");
