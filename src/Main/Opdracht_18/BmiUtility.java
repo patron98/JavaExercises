@@ -10,22 +10,31 @@ public class BmiUtility {
     }
 
     public static void printBmi (float bmi){
-
         System.out.println(bmi);
 
-        switch (bmi){
-            case (bmi < 20) : System.out.println("Ondergewicht");
+        /*switch (bmi1){
+            case (bmi1 < 20) : System.out.println("Ondergewicht");
                 break;
-            case (bmi >= 20 && bmi < 25): System.out.println("Ok");
+            case (bmi1 >= 20 && bmi1 < 25): System.out.println("Ok");
                 break;
-            case (bmi >= 25 && bmi < 30): System.out.println("Overgewicht");
+            case (bmi1 >= 25 && bmi1 < 30): System.out.println("Overgewicht");
                 break;
-            case (bmi >= 30 && bmi < 40): System.out.println("Obesitas");
+            case (bmi1 >= 30 && bmi1 < 40): System.out.println("Obesitas");
                 break;
-            case (bmi > 40): System.out.println("Ziekelijk overgewicht");
+            case (bmi1 > 40): System.out.println("Ziekelijk overgewicht");
                 break;
+        }*/
+
+        if (bmi < 20){
+            System.out.println("Ondergewicht");
+        }else if (bmi >= 20 && bmi < 35){
+            System.out.println("Ok");
+        }else if (bmi >= 25 && bmi < 30){
+            System.out.println("Overgewicht");
+        }else if (bmi >= 30 && bmi < 40){
+            System.out.println("Obesitas");
+        }else if (bmi > 40){
+            System.out.println("Ziekelijk overgewicht");
         }
-
     }
-
 }
